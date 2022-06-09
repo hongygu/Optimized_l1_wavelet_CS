@@ -94,6 +94,8 @@ The codes currently only works for batchsize = 1.
 
 For implementation of reweighted l1-minimization, all slices of input data are normalized such that their zero-filled solution has inf-norm = 255.
 
+Two iterations of reweighted l1-minimization are implemented during testing (step5).
+
 ## Copyright and License Notice
 
 Optimized l1-wavelet CS is copyrighted by Regents of the University of Minnesota. Regents of the University of Minnesota will license the use of Optimized l1-wavelet CS solely for educational and research purposes by non-profit institutions and US government agencies only. For other proposed uses, contact umotc@umn.edu. The software may not be sold or redistributed without prior approval. One may make copies of the software for their use provided that the copies, are not sold or distributed, are used under the same terms and conditions. As unestablished research software, this code is provided on an "as is'' basis without warranty of any kind, either expressed or implied. The downloading, or executing any part of this software constitutes an implicit agreement to these terms. These terms and conditions are subject to change at any time without prior notice.
