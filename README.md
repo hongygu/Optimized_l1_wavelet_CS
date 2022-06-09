@@ -6,8 +6,6 @@ This is an implementation of Optimized l1-wavelet CS for accelerated MRI reconst
 
 [FastMRI](https://fastmri.med.nyu.edu/) dataset is used in the experiments.
 
-A saved model trained with Coronal proton density (PD) dataset is provided.
-
 ## How to use
 
 numpy version: 1.21.5
