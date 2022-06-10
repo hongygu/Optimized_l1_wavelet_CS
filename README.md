@@ -94,6 +94,8 @@ The implementation of wavelet transforms uses and modifies from [here](https://g
 
 The codes currently only works for batchsize = 1.
 
+14 subbands are used in subband processing.
+
 For implementation of reweighted l1-minimization, all slices of input data are normalized such that their zero-filled solution has inf-norm = 255.
 
 Two iterations of reweighted l1-minimization are implemented during testing (step5).
