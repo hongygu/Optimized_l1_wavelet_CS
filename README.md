@@ -90,7 +90,7 @@ reweight_dir(i)--directory for first set of testing data's reconstruction in mat
 
 ## Notes
 
-The implementation of wavelet transforms uses and modifies from [here](https://github.com/UiO-CS/tf-wavelets). Before running the above files, please go to the forked repository [here](https://github.com/hongygu/tf-wavelets/tree/master/tfwavelets) and download **dwtcoeffs.py**, **nodes.py**, **utils.py**. Make sure they are in the same directory as the above training and testing files.
+The implementation of wavelet transforms uses and modifies from [here](https://github.com/UiO-CS/tf-wavelets). Before running the above training and testing files, *please go to the forked repository* [here](https://github.com/hongygu/tf-wavelets/tree/master/tfwavelets) and download **dwtcoeffs.py**, **nodes.py**, **utils.py**. Make sure they are in the same directory as the above training and testing files.
 
 The codes currently only works for batchsize = 1.
 
